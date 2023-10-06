@@ -1,0 +1,13 @@
+if you are not able to merge your local repo with the remote repo type down the following code:
+
+git pull origin main --allow-unrelated-histories
+
+and then check status by :
+
+git status
+
+if there are commits to be made:
+
+git commit -m <commit message>
+
+git 
