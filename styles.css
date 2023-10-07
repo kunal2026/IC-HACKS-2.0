@@ -1,78 +1,104 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
     display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
 }
 
-header nav ul li {
-    margin-right: 1rem;
+.right{
+    background-color: #d3f1f1;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 75px;
+    position: relative;
+    z-index: 1;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.container {
+    background-color: white;
+    width: 50%;
+    margin-left: 12rem;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container1 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    background-color: white;
+
+}
+
+.container1 img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 75%;
+    margin-left: 2rem;
+    margin-right: 30px;
+}
+
+label {
+    display: block;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.courses {
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.course {
-    max-width: 300px;
-    margin-bottom: 2rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.course img {
-    max-width: 100%;
-}
-
-.course-info {
-    padding: 1rem;
-}
-
-.course-info h3 {
-    margin: 0;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.course-info p {
-    font-size: 1rem;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
+input {
     width: 100%;
-    bottom: 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #335dbf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a{
+    font-size: small;
+    text-decoration: solid;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+ul {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+li{
+    padding-right: 30px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
 }
