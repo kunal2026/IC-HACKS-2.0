@@ -1,9 +1,9 @@
 const patientReports = [
-    { patientName: "Patient 1", report: "Report 1", date: "2023-10-10" },
-    { patientName: "Patient 2", report: "Report 2", date: "2023-10-12" },
-    { patientName: "Patient 3", report: "Report 3", date: "2023-10-14" },
-    { patientName: "Patient 4", report: "Report 4", date: "2023-10-15" },
-    { patientName: "Patient 5", report: "Report 5", date: "2023-10-18" },
+    { patientName: "Report 1", report: "Report 1", date: "2023-10-10" },
+    { patientName: "Report 2", report: "Report 2", date: "2023-10-12" },
+    { patientName: "Report 3", report: "Report 3", date: "2023-10-14" },
+    { patientName: "Report 4", report: "Report 4", date: "2023-10-15" },
+    { patientName: "Report 5", report: "Report 5", date: "2023-10-18" },
 ];
 
 const reportList = document.querySelector(".report-list");

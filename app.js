@@ -16,6 +16,25 @@ app.get("/login", (req,res)=>{
     res.render(__dirname+"/views/login.ejs")
 })
 
+app.get("/dashboard", (req,res)=>{
+    res.render(__dirname+"/views/dashboard.ejs")
+})
+
+app.get("/report",(req,res)=>{
+    res.render(__dirname+"/views/report.ejs")
+})
+
+app.get("/appoinment",(req,res)=>{
+    res.send("Page under construction")
+})
+
+app.get("/expenditure",(req,res)=>{
+    res.send("Page under construction")
+})
+
+app.get("/register",(req,res)=>{
+    res.send("Page under construction")
+})
 
 app.listen(port, () => {
     console.log(`Server started on port ${port}`);
