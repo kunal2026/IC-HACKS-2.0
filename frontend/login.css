@@ -1,120 +1,139 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, ul, li, p, form {
     margin: 0;
+    padding: 0;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+/* Define the page background and font styles */
+body {
+    font-family: "Onest";
+    background-color: #f4f4f4;
+}
+
+
+/* Header styles */
+header {
+    background-color: rgb(42 158 207 / 80%); 
+    color: #fcfcfb;
+    text-align: right;
+    padding: 2px;
+    position: relative; 
+    height: 15%;
+    z-index: 1; 
+}
+
+.header-container {
+    width: auto;
+    margin: 2.1%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.right {
-    background-color: #d3f1f1;
-    width: 50%;
-    height: 100%;
-    border-top-left-radius: 75px;
-    position: relative;
+h1 {
+    font-size: 280%;
+    
+}
+
+nav {
+    float: right; /* Float the entire navigation to the right side */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Login box styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust to center vertically */
+    overflow: hidden; /* Prevent scrolling within .login-container */
+}
+
+
+.login-box {
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 100px;
+    border-radius: 150px;
     z-index: 1;
+    opacity: 1;
 }
 
-.container {
-    background-color: white;
-    width: 75%; /* Increased container width for better readability on mobile */
-    margin: 0 auto; /* Center the container */
-    text-align: center;
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.container1 {
-    width: 50%;
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    position: relative;
+    background-image: url('https://americancollege.edu.in/wp-content/uploads/2018/08/pexels-photo.jpg'); /* Replace with the URL to your image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.16; /* Adjust the opacity to control the fading effect */
     z-index: 0;
-    background-color: white;
 }
 
-.container1 img {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%; /* Ensure image does not exceed container width */
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
 }
 
 .form-group {
-    margin-bottom: 10px;
-    text-align: left;
-    width: 75%; /* Adjusted width for better mobile display */
-    margin: 0 auto; /* Center the form groups */
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
 input {
-    width: 100%;
-    padding: 8px;
+    width: 90%;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #335dbf;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    border-radius: 15px;
     font-size: 16px;
 }
 
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align:center;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    text-align: center;
+}
+
 a {
-    font-size: small;
-    text-decoration: underline; /* Corrected text-decoration property */
-}
-
-h2 {
-    padding-left: 10px;
-}
-
-ul {
-    float: right;
-    display: flex;
-    list-style-type: none;
-    margin-right: 30px;
-    padding: 0; /* Remove default padding */
-}
-
-li {
-    padding-right: 30px;
-}
-
-li a {
+    color: #4f2d8d;
     text-decoration: none;
-    color: black;
-    font-size: medium;
-}
-
-/* Media Queries for Mobile Devices */
-@media screen and (max-width: 768px) {
-    .right {
-        width: 100%;
-        border-top-left-radius: 0;
-    }
-
-    .container,
-    .container1 {
-        width: 100%;
-    }
-
-    .form-group {
-        width: 100%;
-    }
 }
