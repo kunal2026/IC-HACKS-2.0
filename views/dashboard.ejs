@@ -5,35 +5,37 @@
     <script src="dashboard.js"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <h1><a href="#">Aarogya</a></h1>
-        </div>
-        <div class="navbar-center">
-            <h1>Dashboard</h1>
-        </div>
-        <div class="navbar-right">
-            <div class="profile-dropdown">
-                <button class="profile-button">Profile</button>
-                <div class="dropdown-content">
-                    <a href="#">Profile</a>
-                    <a href="#">Settings</a>
-                    <a href="#">Logout</a>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <h1><a href="#">Aarogya</a></h1>
+            </div>
+            <div class="navbar-center">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="navbar-right">
+                <div class="profile-dropdown">
+                    <button class="profile-button">Profile</button>
+                    <div class="dropdown-content">
+                        <a href="#">Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Logout</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="sidebar">
-            <ul>
-                <li><a href="/dashboard">Dashboard</a></li><p></p>
-                <li><a href="/report">View Reports</a></li><p></p>
-                <li><a href="/appoinment">View Appointments</a></li><p></p>
-                <li><a href="/expenditure">View Expenditure</a></li><p></p>
-                <li><a href="/register">Register patient</a></li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><a href="/dashboard">Dashboard</a></li><p></p>
+            <li><a href="/report">View Reports</a></li><p></p>
+            <li><a href="/appoinment">View Appointments</a></li><p></p>
+            <li><a href="/expenditure">View Expenditure</a></li><p></p>
+            <li><a href="/register">Register patient</a></li>
+        </ul>
+    </div>
     <div class="activity-grid">
-        <div class="activity-item">
+        <div class="activity-item1">
             <div class="app">
                 <img src="https://cdn-icons-png.flaticon.com/512/55/55281.png">
             </div>
@@ -47,7 +49,7 @@
                 </ul>
             </div>
         </div>
-        <div class="activity-item">
+        <div class="activity-item1">
             <div class="app">
                 <img src="https://icons.veryicon.com/png/o/business/crm-system-icon/expense-reimbursement.png">
             </div>
@@ -61,7 +63,7 @@
                 </ul>
             </div>
         </div>
-        <div class="activity-item">
+        <div class="activity-item1">
             <div class="app">
                 <img src="https://cdn-icons-png.flaticon.com/512/3589/3589902.png">
                 <div class="department-list">
@@ -107,6 +109,4 @@
         }
     });
 </script>
-
-
 </html>
