@@ -69,7 +69,7 @@ nav a {
 .login-box {
     background-color: #f8f8f8;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 100px;
+    padding: 70px;
     border-radius: 150px;
     z-index: 1;
     opacity: 1;
@@ -81,11 +81,10 @@ nav a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://americancollege.edu.in/wp-content/uploads/2018/08/pexels-photo.jpg'); /* Replace with the URL to your image */
+    background-image: url('https://americancollege.edu.in/wp-content/uploads/2018/08/pexels-photo.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.16; /* Adjust the opacity to control the fading effect */
-    z-index: 0;
+    opacity: 0.16;
 }
 
 h2 {
@@ -93,11 +92,11 @@ h2 {
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 label {
