@@ -1,0 +1,200 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+}
+
+.navbar-left a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-left: 90px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.profile-dropdown {
+    position: relative;
+}
+
+.profile-button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+.sidebar {
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 10px;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.sidebar ul {
+    list-style: none;
+    align-items: left;
+}
+
+.sidebar ul li {
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    border-color: 40px;
+    background-color: rgb(134, 177, 222);
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    margin-left: 15%;
+}
+
+.activity-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.activity-grid img{
+    width: 50px;
+}
+
+.list {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    grid-column: span 3;
+    text-align: center;
+}
+
+button{
+    background-color: white ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.app{
+    float: left;
+    height: 100%;
+    margin-right: 10%;
+}
+
+strong{
+    padding-top: 5px;
+    font-weight: normal;
+}
+.department-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#departmentList {
+    list-style: none;
+    padding: 0;
+}
+
+#departmentList li {
+    font-size: 18px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#departmentList li:hover {
+    background-color: #f0f0f0;
+}
+.patient-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#patientList {
+    list-style: none;
+    padding: 0;
+}
+
+#patientList li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#patientList li:hover {
+    background-color: #f0f0f0;
+}
+.appointment-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#appointmentList {
+    list-style: none;
+    padding: 0;
+}
+
+#appointmentList li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#appointmentList li:hover {
+    background-color: #f0f0f0;
+}
+.expenditure-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#expenditureList {
+    list-style: none;
+    padding: 0;
+}
+
+#expenditureList li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#expenditureList li:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+
+
