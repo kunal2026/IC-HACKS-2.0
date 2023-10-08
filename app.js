@@ -33,7 +33,7 @@ app.get("/expenditure",(req,res)=>{
 })
 
 app.get("/register",(req,res)=>{
-    res.send("Page under construction")
+    res.render(__dirname+"/views/register.ejs")
 })
 
 app.listen(port, () => {
