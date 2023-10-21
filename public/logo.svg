@@ -1,0 +1,20 @@
+<svg width="21" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_106_16)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.0602 13.6813C20.0602 12.7375 19.9966 11.8299 19.8784 10.9587H10.4647V16.1075H15.844C15.6123 17.7713 14.9081 19.181 13.8495 20.1248V23.4646H17.0798C18.9698 21.1473 20.0602 17.735 20.0602 13.6813Z" fill="#4285F4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.4647 26.6893C13.1634 26.6893 15.426 25.4974 17.0798 23.4645L13.8495 20.1248C12.9544 20.9234 11.8095 21.3953 10.4647 21.3953C7.8614 21.3953 5.6579 19.0539 4.87191 15.9077H1.53258V19.3564C3.17725 23.7066 6.55747 26.6893 10.4647 26.6893Z" fill="#34A853"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.87191 15.9077C4.672 15.1091 4.55842 14.256 4.55842 13.3787C4.55842 12.5014 4.672 11.6484 4.87191 10.8497V7.40106H1.53258C0.855625 9.19799 0.469444 11.2309 0.469444 13.3787C0.469444 15.5266 0.855625 17.5595 1.53258 19.3564L4.87191 15.9077Z" fill="#FBBC05"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.4647 5.36217C11.9322 5.36217 13.2498 6.03375 14.2856 7.35271L17.1525 3.53498C15.4215 1.38714 13.1589 0.0681763 10.4647 0.0681763C6.55747 0.0681763 3.17725 3.05096 1.53258 7.40111L4.87191 10.8498C5.6579 7.70362 7.8614 5.36217 10.4647 5.36217Z" fill="#EA4335"/>
+</g>
+<defs>
+<filter id="filter0_i_106_16" x="0.469444" y="0.0681763" width="19.5907" height="30.6212" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_106_16"/>
+</filter>
+</defs>
+</svg>
