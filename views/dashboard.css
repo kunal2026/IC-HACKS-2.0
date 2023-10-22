@@ -1,0 +1,291 @@
+<<<<<<< HEAD:frontend/dashboard.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Updated background color to black */
+    color: #fff; /* Updated text color to white */
+}
+
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.navbar {
+=======
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+
+body{
+    font-family: "Onest";
+}
+
+header .navbar {
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.css
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+<<<<<<< HEAD:frontend/dashboard.css
+    padding: 10px;
+    height: 15%;
+    background-color: #1da8e9;
+}
+
+.navbar-left{
+    margin-left: 30px;
+=======
+    height: 10%;
+    width: 100%;
+    background-color: rgb(42 158 207 / 80%);
+    margin: 0;
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.css
+}
+
+.navbar-left a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+<<<<<<< HEAD:frontend/dashboard.css
+=======
+    margin-left: 50px;
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.css
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(98, 94, 94);
+    color: white;
+    min-width: 160px;
+    z-index: 1;
+    right: 0;
+}
+
+.profile-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.profile-button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+<<<<<<< HEAD:frontend/dashboard.css
+    margin-right: 20px;
+    background-color:transparent;
+    color: white;
+=======
+    background-color: transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: auto;
+    z-index: 1;
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.css
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #444;
+    color: white;
+}
+
+.sidebar {
+<<<<<<< HEAD:frontend/dashboard.css
+    position: relative;
+=======
+    position: fixed;
+    margin-top: 100px;
+    top: 0;
+    left: 0;
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.css
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    align-items: left;
+}
+
+.sidebar ul li {
+    padding-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    border-color: 40px;
+<<<<<<< HEAD:frontend/dashboard.css
+    background-color:black;
+=======
+    background-color: rgb(42 158 207 / 80%);
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.css
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    color:white
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    margin-left: 15%;
+    
+}
+
+.activity-item {
+    background-color:#1C4E80;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    
+}
+
+.activity-item1 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.bg{
+    background-color: #146ca4;
+}
+.activity-grid img{
+    width: 50px;
+}
+
+.list {
+    padding: 20px;
+    font-size: 18px;
+    grid-column: span 3;
+    text-align: center;
+}
+
+.greeting{
+    padding: 20px;
+    font-size: 18px;
+    grid-column: span 3;
+    text-align: left;
+    padding: 10px;
+}
+
+button{
+    background-color: white ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.app{
+    float: left;
+    height: 100%;
+    margin-right: 10%;
+}
+
+strong{
+    padding-top: 5px;
+    font-weight: normal;
+}
+.department-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: right;
+}
+
+#departmentList {
+    list-style: none;
+    padding: 0;
+}
+
+#departmentList li {
+    font-size: 18px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.patient-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#patientList {
+    list-style: none;
+    padding: 0;
+}
+
+#patientList li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.appointment-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#appointmentList {
+    list-style: none;
+    padding: 0;
+}
+
+#appointmentList li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.expenditure-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#expenditureList {
+    list-style: none;
+    padding: 0;
+}
+
+#expenditureList li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.curved-box {
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 10px 0;
+}
+.appointment-list,
+.expenditure-list,
+.department-list {
+    border: none; /* Remove border */
+}
+
+
+
+
