@@ -1,0 +1,138 @@
+.macbook-air-1-child,
+.macbook-air-1-child1,
+.macbook-air-1-child2,
+.macbook-air-1-inner,
+.macbook-air-1-item,
+.rectangle-div {
+  position: absolute;
+  top: 463px;
+  left: 16px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-dimgray);
+  width: 1226px;
+  height: 104px;
+}
+.macbook-air-1-child1,
+.macbook-air-1-child2,
+.macbook-air-1-inner,
+.macbook-air-1-item,
+.rectangle-div {
+  top: 705px;
+}
+.macbook-air-1-child1,
+.macbook-air-1-child2,
+.macbook-air-1-inner,
+.rectangle-div {
+  top: 584px;
+}
+.macbook-air-1-child1,
+.macbook-air-1-child2,
+.rectangle-div {
+  top: 342px;
+}
+.macbook-air-1-child1,
+.macbook-air-1-child2 {
+  top: 221px;
+}
+.macbook-air-1-child2 {
+  top: 100px;
+}
+.macbook-air-1-child3,
+.macbook-air-1-child4 {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  background-color: transparent;
+  width: 1280px;
+  height: 757px;
+}
+.macbook-air-1-child4 {
+  top: 0;
+  background-color: #000;
+  height: 74px;
+}
+.home-about-us {
+  position: absolute;
+  top: 31px;
+  left: 1014px;
+}
+.aarogya,
+.reports {
+  position: absolute;
+  top: 18px;
+  left: 38px;
+  font-size: var(--font-size-13xl);
+}
+.reports {
+  top: 21px;
+  left: 567px;
+}
+.name {
+  margin: 0;
+}
+.name-date,
+.name-date1,
+.name-date2 {
+  position: absolute;
+  top: 125px;
+  left: 57px;
+}
+.name-date1,
+.name-date2 {
+  top: 241px;
+}
+.name-date2 {
+  top: 366px;
+}
+.name-date3,
+.name-date4,
+.name-date5 {
+  position: absolute;
+  top: 488px;
+  left: 57px;
+}
+.name-date4,
+.name-date5 {
+  top: 608px;
+}
+.name-date5 {
+  top: 729px;
+}
+.macbook-air-1 {
+  position: relative;
+  background-color: #2e2e2e;
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+.home-about-us a{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dimgray: #535252;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+}
