@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-montagu-slab: "Montagu Slab";
+    --font-open-sans-hebrew: "Open Sans Hebrew";
+    --font-montserrat: Montserrat;
+    --font-roboto: Roboto;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-white: #000;
+    --color-black: #fff;
+  
+    /* Border radiuses */
+    --br-9xs: 4px;
+    --br-xl: 20px;
+  }
+  
