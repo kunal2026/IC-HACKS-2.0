@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <script src="dashboard.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <h1><a href="#">Aarogya</a></h1>
+            </div>
+            <div class="navbar-center">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="navbar-right">
+                <div class="profile-dropdown">
+                    <button class="profile-button">Profile</button>
+                    <div class="dropdown-content">
+                        <a href="#">Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+<<<<<<< HEAD:frontend/dashboard.html
+        </div>
+    </nav>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Link 1</a></li><p></p>
+            <li><a href="#">Link 2</a></li><p></p>
+            <li><a href="#">Link 3</a></li><p></p>
+            <li><a href="#">Link 4</a></li><p></p>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </div>
+    <!-- Rest of your page content goes here -->
+    <div class="activity-grid">
+        <div class="greeting">
+            <h2>Welcome &ltprof_name&gt</h2>
+        </div>
+            <div class="curved-box activity-item">
+                <div class="app">
+                    <img src="https://o.remove.bg/downloads/9aeec0ad-454b-4c67-aad2-b355a785826f/Untitled_design-removebg-preview.png">
+                </div>
+                <h3><b>500</b>&nbsp<strong>Appointments</strong> </h3>
+                <div class="appointment-list">
+                    <b>Last Three Appointments</b>
+                    <ul id="appointmentList">
+                        <li>Appointment 1</li>
+                        <li>Appointment 2</li>
+                        <li>Appointment 3</li>
+                    </ul>
+                </div>
+            </div>  
+        <div class="curved-box activity-item bg">
+=======
+        </nav>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><a href="/dashboard">Dashboard</a></li><p></p>
+            <li><a href="/report">View Reports</a></li><p></p>
+            <li><a href="/appoinment">View Appointments</a></li><p></p>
+            <li><a href="/expenditure">View Expenditure</a></li><p></p>
+            <li><a href="/register">Register patient</a></li>
+        </ul>
+    </div>
+    <div class="activity-grid">
+        <div class="activity-item1">
+            <div class="app">
+                <img src="https://cdn-icons-png.flaticon.com/512/55/55281.png">
+            </div>
+            <h3><b>500</b>&nbsp<strong>Appointments</strong> </h3>
+            <div class="appointment-list">
+                <b>Last Three Appointments</b>
+                <ul id="appointmentList">
+                    <li>Appointment 1</li>
+                    <li>Appointment 2</li>
+                    <li>Appointment 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="activity-item1">
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.ejs
+            <div class="app">
+                <img src="https://o.remove.bg/downloads/aa734b27-63e6-48b6-81b3-504909fa49a5/Untitled_design__1_-removebg-preview.png">
+            </div>
+            <h3><b>104</b>&nbsp<strong>Expenditure</strong> </h3>
+            <div class="expenditure-list">
+                <b>Last Three Expenditure Reports</b>
+                <ul id="expenditureList">
+                    <li>Expenditure 1</li>
+                    <li>Expenditure 2</li>
+                    <li>Expenditure 3</li>
+                </ul>
+            </div>
+        </div>
+<<<<<<< HEAD:frontend/dashboard.html
+        <div class="curved-box activity-item">
+=======
+        <div class="activity-item1">
+>>>>>>> d5177a27977bc31c8156ca231caf016cbbeddecd:views/dashboard.ejs
+            <div class="app">
+                <img src="https://cdn-icons-png.flaticon.com/512/3589/3589902.png">
+                <div class="department-list">
+                    <h2>Departments</h2>
+                    <ul id="departmentList">
+                        <li>Department 1</li>
+                        <li>Department 2</li>
+                        <li>Department 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+            
+        <div class="curved-box activity-item list bg">
+            <h2>Recent Reports</h2>
+            <ul id="patientList">
+                <li>Reports 1</li>
+                <li>Reports 2</li>
+                <li>Reports 3</li>
+                <li>Reports 4</li>
+                <li>Reports 5</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<script>
+    var dropdown = document.querySelector('.profile-dropdown');
+    var dropdownContent = document.querySelector('.dropdown-content');
+
+    dropdown.addEventListener('click', function () {
+        if (dropdownContent.style.display === 'block') {
+            dropdownContent.style.display = 'none';
+        } else {
+            dropdownContent.style.display = 'block';
+        }
+    });
+
+    // Close the dropdown if the user clicks outside of it
+    window.addEventListener('click', function (event) {
+        if (!event.target.matches('.profile-button')) {
+            dropdownContent.style.display = 'none';
+        }
+    });
+</script>
+</html>
